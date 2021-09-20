@@ -13,7 +13,7 @@
 const fullName = `Abdullah Al-Adwani`
 const yearOfBirth = 1995
 const hobby = `coding`
-const funFact = ``
+const funFact = `if had a chance i would sleep all day`
 const image = `https://i.kym-cdn.com/photos/images/original/000/654/319/0b9.jpg`
 
 
