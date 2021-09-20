@@ -10,10 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
+const fullName = `Abdullah Al-Adwani`
+const yearOfBirth = 1995
+const hobby = `coding`
+const funFact = ``
+const image = `https://i.kym-cdn.com/photos/images/original/000/654/319/0b9.jpg`
 
 
 /**
@@ -29,9 +30,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+ const fullNameString = `My name is ${fullName}`
+ const yearOfBirthString = `I am ${2021 - yearOfBirth}`
+ const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -41,18 +42,28 @@
  * Increment your hacker score
  * */
 
-let stars = 0;
+ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+ stars++;
+ return stars;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--
+  return stars
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars++
+  stars++
+  return stars
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars--
+  stars--
+  return stars
 }
